@@ -1,0 +1,47 @@
+syntax
+<?php
+echo "Hello, World!";
+?>
+
+variables
+<?php
+$name = "Asmita";
+$age = 21;
+echo "Name: $name, Age: $age";
+?>
+
+if else statements
+<?php
+if ($age >= 18) {
+    echo "Adult";
+} else {
+    echo "Minor";
+}
+?>
+
+for loop
+for ($i = 0; $i < 5; $i++) {
+    echo $i;
+}
+
+while loop
+while ($i < 5) {
+    echo $i;
+    $i++;
+}
+
+functions
+<?php
+function greet($name) {
+    return "Hello, $name!";
+}
+echo greet("Asmita");
+?>
+
+arrays
+<?php
+$cars = ["BMW", "Audi", "Tesla"];
+echo $cars[0];
+?>
+
+
